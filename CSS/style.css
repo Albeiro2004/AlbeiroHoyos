@@ -226,18 +226,23 @@ section h2 {
 /* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
 
+    #menu {
+        overflow-x: auto; /* Habilita desplazamiento horizontal si es necesario */
+        white-space: nowrap; /* Evita que los elementos salten de línea */
+    }
+
     #menu ul {
-        flex-direction: row;  /* Se mantiene horizontal */
-        flex-wrap: wrap;  /* Permite que los elementos bajen si no caben */
-        padding: 5px;
+        display: flex;
+        justify-content: flex-start; /* Alinea los elementos a la izquierda */
     }
 
     #menu li {
-        margin: 8px;
+        margin: 0 10px;
+        flex-shrink: 0; /* Evita que los elementos se acomoden en varias líneas */
     }
 
     #menu a {
-        font-size: 1rem; /* Reduce el tamaño del texto en móviles */
+        font-size: 1rem;
     }
     /* Centrar el texto en encabezados */
     header {
