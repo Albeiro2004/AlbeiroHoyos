@@ -225,20 +225,20 @@ section h2 {
 }
 /* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
-    /* Cambia el menú de navegación */
+
     #menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
+        flex-direction: row;  /* Se mantiene horizontal */
+        flex-wrap: wrap;  /* Permite que los elementos bajen si no caben */
+        padding: 5px;
     }
 
     #menu li {
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
+        margin: 8px;
     }
 
+    #menu a {
+        font-size: 1rem; /* Reduce el tamaño del texto en móviles */
+    }
     /* Centrar el texto en encabezados */
     header {
         text-align: center;
