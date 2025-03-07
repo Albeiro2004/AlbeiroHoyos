@@ -227,6 +227,7 @@ section h2 {
 @media (max-width: 768px) {
 
     #menu {
+        position: relative;
         overflow-x: auto; /* Habilita desplazamiento horizontal si es necesario */
         white-space: nowrap; /* Evita que los elementos salten de línea */
     }
@@ -243,7 +244,7 @@ section h2 {
     }
 
     #menu a {
-        font-size: 12px;
+        font-size: 10px;
     }
     /* Centrar el texto en encabezados */
     header {
