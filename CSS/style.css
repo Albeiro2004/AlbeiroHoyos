@@ -234,6 +234,7 @@ section h2 {
     #menu ul {
         display: flex;
         justify-content: flex-start; /* Alinea los elementos a la izquierda */
+
     }
 
     #menu li {
@@ -242,11 +243,12 @@ section h2 {
     }
 
     #menu a {
-        font-size: 1rem;
+        font-size: 12px;
     }
     /* Centrar el texto en encabezados */
     header {
         text-align: center;
+        font-size: 14px;
     }
 
     /* Ajustar imagen y sobre mí en columna */
@@ -288,6 +290,7 @@ section h2 {
         bottom: 15px;
         right: 15px;
     }
+    
 }
 
 
