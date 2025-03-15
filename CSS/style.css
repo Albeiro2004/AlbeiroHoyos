@@ -248,20 +248,17 @@ section h2 {
     }
 
     /* SECCIÓN "ESTUDIOS" */
-    .estudio {
-        padding: 15px;
+    .estudio {  
         font-size: 1rem;
     }
 
     /* SECCIÓN "EXPERIENCIA" */
-    .card {
-        padding: 15px;
+    .card {    
         font-size: 1rem;
     }
 
     /* SECCIÓN "HABILIDADES" */
     .progress {
-        padding: 15px;
         font-size: 1rem;
     }
 
