@@ -212,7 +212,7 @@ section h2 {
 @media (max-width: 768px) {
 
     #menu{
-        width: 90%;
+        width: 100%;
     }
     /* Cambia el menú de navegación */
     #menu ul {
@@ -226,6 +226,7 @@ section h2 {
         width: 100%;
         text-align: center;
         padding: 0 0;
+        font-size: 12px;
     }
 
     section {
