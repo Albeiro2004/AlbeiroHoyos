@@ -192,12 +192,11 @@ section h2 {
 
     /* ESTILOS GENERALES */
     h1 {
-        font-size: 14px;
+        font-size: medium;
     }
 
     section {
         width: 95% !important; 
-        margin: 20px auto; /* Centra las secciones */
     }
 
     /* MENÚ DE NAVEGACIÓN */
@@ -215,6 +214,11 @@ section h2 {
 
     #menu a {
         font-size: 10px;
+    }
+
+    #Albeiro p {
+        text-align: center;
+        font-size: 1.0rem;
     }
 
     /* BOTÓN VOLVER AL INICIO */
