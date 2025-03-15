@@ -189,13 +189,18 @@ section h2 {
 }
 
 @media (max-width: 768px) {
-    
-    /* Ajuste del título */
+
+    /* ESTILOS GENERALES */
     h1 {
         font-size: 14px;
     }
 
-    /* Menú de navegación */
+    section {
+        width: 95%;
+        margin: 20px auto; /* Centra las secciones */
+    }
+
+    /* MENÚ DE NAVEGACIÓN */
     #menu ul {
         display: flex;
         flex-direction: row;
@@ -212,7 +217,21 @@ section h2 {
         font-size: 8px;
     }
 
-    /* Sección "Sobre mí" */
+    /* BOTÓN VOLVER AL INICIO */
+    #btnInicio {
+        font-size: 14px;
+        padding: 10px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    /* ENCABEZADO */
+    header {
+        text-align: center;
+    }
+
+    /* SECCIÓN "SOBRE MÍ" */
     #sobre-mi {
         display: flex;
         flex-direction: column;
@@ -229,25 +248,25 @@ section h2 {
         height: 140px;
     }
 
-    /* Encabezado */
-    header {
-        text-align: center;
+    /* SECCIÓN "ESTUDIOS" */
+    .estudio {
+        padding: 15px;
+        font-size: 1rem;
     }
 
-    /* Ajuste de secciones */
-    section {
-        width: 100%;
+    /* SECCIÓN "EXPERIENCIA" */
+    .card {
+        padding: 15px;
+        font-size: 1rem;
     }
 
-    /* Tarjetas de experiencia y estudios */
-    .estudio, 
-    .card, 
+    /* SECCIÓN "HABILIDADES" */
     .progress {
         padding: 15px;
         font-size: 1rem;
     }
 
-    /* Contacto */
+    /* SECCIÓN "CONTACTO" */
     #contacto p {
         font-size: 1rem;
     }
@@ -255,15 +274,7 @@ section h2 {
     #contacto i {
         font-size: 1.3rem;
     }
-
-    /* Botón de volver al inicio */
-    #btnInicio {
-        font-size: 14px;
-        padding: 10px;
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-    }
 }
+
 
 
