@@ -211,8 +211,8 @@ section h2 {
 /* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
 
-    nav ul li {
-        margin-bottom: 5px;
+    #menu{
+        width: 90%;
     }
     /* Cambia el menú de navegación */
     #menu ul {
