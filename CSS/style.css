@@ -213,7 +213,7 @@ section h2 {
 
     /* Cambia el menú de navegación */
     #menu ul {
-        display: flex;
+        display: block;
         flex-direction: row;
         align-items: center;
         padding: 0;
