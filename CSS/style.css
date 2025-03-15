@@ -149,6 +149,7 @@ section h2 {
     font-size: 1.2rem;
     color: #444;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* CONTACTO */
@@ -207,12 +208,12 @@ section h2 {
         font-size: 10px;
     }
 
-    #estudios section {
-        width:100%;
+    section {
+        max-width: 95%;
     }
-
+    
     #Albeiro h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     #Albeiro p {
