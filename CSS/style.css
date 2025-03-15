@@ -188,13 +188,14 @@ section h2 {
     color: #222;
 }
 
-/* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
-
-    h1{
+    
+    /* Ajuste del título */
+    h1 {
         font-size: 14px;
     }
-    /* Cambia el menú de navegación */
+
+    /* Menú de navegación */
     #menu ul {
         display: flex;
         flex-direction: row;
@@ -211,19 +212,16 @@ section h2 {
         font-size: 8px;
     }
 
+    /* Sección "Sobre mí" */
+    #sobre-mi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     #sobre-mi p {
         text-align: justify;
-    }
-
-    /* Centrar el texto en encabezados */
-    header {
-        text-align: center;
-    }
-
-    /* Ajustar imagen y sobre mí en columna */
-    #sobre-mi {
-        flex-direction: column;
-        text-align: center;
     }
 
     #sobre-mi img {
@@ -231,20 +229,26 @@ section h2 {
         height: 140px;
     }
 
-    /* Ajustar el ancho de las secciones */
-    section {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+    /* Encabezado */
+    header {
+        text-align: center;
     }
 
-    /* Ajustar tarjetas de experiencia y estudios */
-    .estudio, .card, .progress {
+    /* Ajuste de secciones */
+    section {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* Tarjetas de experiencia y estudios */
+    .estudio, 
+    .card, 
+    .progress {
         padding: 15px;
         font-size: 1rem;
     }
 
-    /* Ajustar tamaño de los iconos en contacto */
+    /* Contacto */
     #contacto p {
         font-size: 1rem;
     }
@@ -253,10 +257,11 @@ section h2 {
         font-size: 1.3rem;
     }
 
-    /* Ajustar el botón de volver al inicio */
+    /* Botón de volver al inicio */
     #btnInicio {
         font-size: 14px;
         padding: 10px;
+        position: fixed;
         bottom: 15px;
         right: 15px;
     }
