@@ -96,6 +96,18 @@ section:hover {
     border-radius: 6px;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        padding: 30px;
+    }
+
+    .estudio, .card, .progress {
+        padding: 15px;
+    }
+}
+
+
 /* HEADER */
 header {
     text-align: center;
@@ -151,6 +163,14 @@ section h2 {
     line-height: 1.5;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #sobre-mi {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 /* CONTACTO */
 #contacto p {
     text-align: center;
@@ -188,71 +208,56 @@ section h2 {
     color: #222;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+    
+    section {
+        padding: 30px 5%;
+    }
+}
 /* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
-
-
-    #menu {
-        position: relative;
-        width: 100%;
-        overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
-        white-space: nowrap; /* Evita que los elementos se rompan en varias líneas */
-    }
-    
+    /* Cambia el menú de navegación */
     #menu ul {
-        display: flex; /* Asegura alineación horizontal */
-        flex-wrap: nowrap; /* Evita que los elementos se acomoden en varias líneas */
-        justify-content: center; /* Centra los elementos horizontalmente */
-        padding: 0;
-        margin: 0;
-    }
-    
-    #menu li {
-        list-style: none;
-        margin: 0 10px; /* Espaciado entre elementos */
-        flex-shrink: 0; /* Evita que los elementos se reduzcan y se acomoden en otra línea */
-    }
-    
-    #menu a {
-        display: inline-block;
-        text-decoration: none;
-        font-size: 10px; /* Ajusta el tamaño de la fuente */
-        padding: 8px 10px;
-        white-space: nowrap; /* Evita que el texto dentro del enlace se divida */
-    }
-
-    #Albeiro {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: small;
-        margin-top: -40px;
-    }
-    header h1 {
-        font-size: 32px;
-    }
-    
-    header p {
-        font-size: 14px;
-        font-weight: 300;
+        padding: 0;
     }
 
-    
+    #menu li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Centrar el texto en encabezados */
+    header {
+        text-align: center;
+    }
+
     /* Ajustar imagen y sobre mí en columna */
     #sobre-mi {
         flex-direction: column;
-        text-align: justify;
-        max-width: 90%;
+        text-align: center;
     }
 
     #sobre-mi img {
-        width: 200px;
-        height: 200px;
+        width: 140px;
+        height: 140px;
     }
 
     /* Ajustar el ancho de las secciones */
     section {
-        max-width: 90%;
+        width: 90%;
         padding: 20px;
     }
 
@@ -278,7 +283,6 @@ section h2 {
         bottom: 15px;
         right: 15px;
     }
-    
 }
 
 
