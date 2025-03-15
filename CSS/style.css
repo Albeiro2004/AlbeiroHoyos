@@ -208,27 +208,16 @@ section h2 {
     color: #222;
 }
 
-/* RESPONSIVE */
+/* ----- AJUSTES GENERALES PARA MÓVILES ----- */
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
 
     nav ul li {
         margin-bottom: 10px;
     }
-    
-    section {
-        padding: 30px 5%;
-    }
-}
-/* ----- AJUSTES GENERALES PARA MÓVILES ----- */
-@media (max-width: 768px) {
     /* Cambia el menú de navegación */
     #menu ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 0;
     }
@@ -239,6 +228,9 @@ section h2 {
         padding: 10px 0;
     }
 
+    section {
+        padding: 30px 5%;
+    }
     /* Centrar el texto en encabezados */
     header {
         text-align: center;
