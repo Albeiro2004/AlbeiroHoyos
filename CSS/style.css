@@ -234,7 +234,7 @@ section h2 {
     #sobre-mi p {
         text-align: justify;
     }
-    
+
     /* Centrar el texto en encabezados */
     header {
         text-align: center;
@@ -254,7 +254,8 @@ section h2 {
     /* Ajustar el ancho de las secciones */
     section {
         width: 100%;
-        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     /* Ajustar tarjetas de experiencia y estudios */
