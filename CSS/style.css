@@ -234,10 +234,7 @@ section h2 {
     #sobre-mi p {
         text-align: justify;
     }
-
-    section {
-        padding: 30px 5%;
-    }
+    
     /* Centrar el texto en encabezados */
     header {
         text-align: center;
